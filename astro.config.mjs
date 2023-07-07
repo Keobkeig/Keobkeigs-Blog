@@ -10,7 +10,7 @@ export default defineConfig({
         github: 'https://github.com/Keobkeig',
       },
       logo: {
-        src: '/assets/logo.svg',
+        src: '/src/assets/logo.svg',
       },
       sidebar: [
         {

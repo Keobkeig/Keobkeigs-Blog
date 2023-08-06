@@ -2,7 +2,7 @@
 title: Weekly Log - [Week 0]
 description: First weekly log of my internship at XCaveLLC.
 ---
-## Goals for the Week
+# Goals for the Week
 
 List the goals and objectives you set for yourself at the beginning of the week. These can be specific tasks, projects, or skills you aimed to accomplish or improve upon during the week.
 

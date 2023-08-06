@@ -17,6 +17,10 @@ export default defineConfig({
           label: 'Blog Posts',
           autogenerate: { directory: 'posts' },
         },
+        {
+          label: 'XCave Internship Weekly Logs',
+          autogenerate: { directory: 'XCaveLogs' },
+        }
       ],
     }),
   ],

@@ -16,11 +16,15 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Blog Posts',
-          autogenerate: { directory: 'posts' },
+          autogenerate: { directory: 'Posts' },
         },
         {
           label: 'XCave Internship Weekly Logs',
           autogenerate: { directory: 'XCaveLogs' },
+        },
+        {
+          label: 'Projects',
+          autogenerate: { directory: 'Projects' },
         }
       ],
     }),

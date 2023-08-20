@@ -4,47 +4,30 @@ description: Second weekly log of my internship at XCaveLLC.
 ---
 # Goals for the Week
 
-List the goals and objectives you set for yourself at the beginning of the week. These can be specific tasks, projects, or skills you aimed to accomplish or improve upon during the week.
-
 - Goal 1: To finish the first project, Newsfeed generator
 - Goal 2: Scrap data from new sources (The Conversation and The Guardian)
 
 ## Accomplishments
 
-Reflect on what you achieved during the week. Highlight the tasks or projects you completed, skills you developed, and any notable accomplishments.
-
-- Accomplishment 1: Finished the first project and built a newsfeed generator
+- Accomplishment 1: Finished the first project and built a newsfeed generator website
 - Accomplishment 2: Learned how to work with sqlite3 
 
 ## Challenges Faced
 
-Identify any challenges or obstacles you encountered during the week. This can include technical difficulties, time management issues, or any other difficulties you faced in your internship responsibilities.
-
-- Challenge 1: Using headless browsers as well as installing the new tools involed with them
-- Challenge 2: Stale element exceptions
-- Challenge 3: Time out exceptions when using wait 
+- Challenge 1: Going through the pagination of The Conversation and The Guardian to get articles to then individually scrape
+- Challenge 2: Verifying if an article was released in the past two weeks via scrapping
+- Challenge 3: Dealing with popups when scrapping The Guardian
 
 ## Lessons Learned
 
-Share any lessons or insights you gained from your experiences during the week. This can include new knowledge, skills, or personal growth.
-
-- Lesson 1: dataFrames >>> dictionaries when storing data, also easier to convert to csv
-- Lesson 2: Keep a list of links over getting the actual data when scraping from multiple pages to avoid stale element exceptions
-- Lesson 3: options.add_argument('--headless'), and other options are very useful when using selenium
+- Lesson 1: Often times, the data you need will be in the meta tags of the html and not in the body itself
+- Lesson 2: ```poetry add <package>``` is the same as ```pip install <package>``` but for poetry and allows you to use the package in your code without having to import it in the file
+- Lesson 3: sqlite3 databases are structured like a tree, with the root being the database, the branches being the tables and the leaves being the rows as opposed to a csv file which is just a table
 
 ## Goals for Next Week
 
-Outline your goals and objectives for the upcoming week. These can be continuations of the previous week's goals or new targets you want to achieve.
+- Goal 1: To start the second project, Job Aggregator
 
-- Goal 1: Avoid using bs4 as much as possible and instead use selenium to get the data
-...
 ## Action Items
 
-List any specific actions or tasks you need to take to progress towards your goals for the next week. This can include research, assignments, or any preparations required.
-
-- Action Item 1: Re-learn panda syntax
-...
-
-## Additional Notes
-
-Include any additional notes, reminders, or relevant information that might be helpful for future reference.
+- Action Item 1: Learn how to bypass certain anti-bot systems such as cloudflare when scrapping

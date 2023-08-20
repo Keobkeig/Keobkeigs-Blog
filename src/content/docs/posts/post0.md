@@ -3,7 +3,6 @@ title: Launch Post
 description: The first post on Keobkeig's blog.
 ---
 
-# Launch Post
 This is the start of my blog, documentating my journey through the world of programming. I will be posting about my projects, my thoughts and my learnings. I hope you enjoy reading it as much as I enjoy writing it.
 
 ## Why am I doing this?

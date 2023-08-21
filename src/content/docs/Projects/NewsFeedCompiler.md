@@ -1,9 +1,4 @@
 ---
-title: My Exclesior 
-description: My optimized version StuyPulse Robotic's 2021-2022 season robot, Exclesior.
----
-
----
 title: News Feed Compiler
 description: A website that compiles a news feed from various news outlets for the last week.
 ---

@@ -1,36 +1,38 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Richie Xue's Website
+description: Hoping my code makes the world a better place, one line at a time.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Hoping my code makes the world a better place, one line at a time.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: My Blogs
+      link: /posts/post0/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: XCave Internship Weekly Logs
+      link: /xcavelogs/week0/
+      icon: right-arrow
+      variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
 
-## Next steps
+## Personal Projects 🚀
 
 <CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+  <Card title="Science Questions Study Tool" icon="list-format">
+    <p> Independently built machine-learning model that creates/classifies science questions. <a href="/projects/sciencequestionstudytool/" > <Icon name="right-arrow" color="goldenrod" size= "2rem"/> </a> </p>
   </Card>
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  <Card title="My Exclesior" icon="setting">
+    <p> My solo, optimized version StuyPulse Robotic's 2021-2022 season robot, Exclesior. <a href="/projects/myexclesior/" > <Icon name="right-arrow" color="goldenrod" size= "2rem"/> </a> </p>
   </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
+  <Card title="News Feed Compiler" icon="information">
+    <p> Website that compiles a news feed from various news outlets for the last week. <a href="/projects/newsfeedcompiler/" > <Icon name="right-arrow" color="goldenrod" size= "2rem"/> </a> </p>
   </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  <Card title="Out of This World" icon="puzzle">
+    <p> Visual novel game built via the ```processing``` graphics library and Java. <a href="/projects/outofthisworld/" > <Icon name="right-arrow" color="goldenrod" size= "2rem"/> </a> </p>
   </Card>
 </CardGrid>

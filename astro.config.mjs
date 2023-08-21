@@ -8,6 +8,7 @@ export default defineConfig({
       title: 'Richie\'s Blog',
       social: {
         github: 'https://github.com/Keobkeig',
+        linkedin: 'https://www.linkedin.com/in/richie-xue-48967a280/'
       },
       logo: {
         src: '/src/assets/logo.svg',
@@ -20,6 +21,10 @@ export default defineConfig({
         {
           label: 'XCave Internship Weekly Logs',
           autogenerate: { directory: 'XCaveLogs' },
+        },
+        {
+          label: 'Projects',
+          autogenerate: { directory: 'Projects' },
         }
       ],
     }),

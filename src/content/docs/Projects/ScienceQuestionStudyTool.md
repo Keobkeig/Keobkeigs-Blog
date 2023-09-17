@@ -9,11 +9,15 @@ Further details are in our presentation below: https://docs.google.com/presentat
     <br> 
 </p>
 
-## Table of Contents
+## Stack <a name = "built_using"></a>
 
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Web Framework
+- [Python](https://www.python.org/) - Programming Language
+- [scikit-learn](https://scikit-learn.org/stable/) - Machine Learning Library
+- [NLTK](https://www.nltk.org/) - Natural Language Processing Library
+- [Pandas](https://pandas.pydata.org/) - Data Analysis Library
+- [NumPy](https://numpy.org/) - Scientific Computing Library
+- [Kaggle](https://www.kaggle.com/) - Dataset Source
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -22,6 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them.
+
 
 ### Installing
 
@@ -65,17 +70,4 @@ Give an example
 
 Add notes about how to use the system.
 
-## Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## Stack <a name = "built_using"></a>
-
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Web Framework
-- [Python](https://www.python.org/) - Programming Language
-- [scikit-learn](https://scikit-learn.org/stable/) - Machine Learning Library
-- [NLTK](https://www.nltk.org/) - Natural Language Processing Library
-- [Pandas](https://pandas.pydata.org/) - Data Analysis Library
-- [NumPy](https://numpy.org/) - Scientific Computing Library
-- [Kaggle](https://www.kaggle.com/) - Dataset Source
 

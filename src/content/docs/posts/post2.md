@@ -23,19 +23,19 @@ Having finished my internship at XCave LLC this August, I am proud to have said 
 
 Having worked at XCave LLC for about 2 months, I have learned a lot about web scraping and data engineering (details about [my tasks](https://keobekigs-blog.vercel.app/xcavelogs/week0/)). The early weeks had been mini-projects to get us familiar with the basic scrapping and data analysis tools (Selenium, Pandas, etc) and the later weeks had been working on a project for the company. Our team's project was to create a job aggregation website similar to that of Indeed.com or LinkedIn Jobs. 
 
-### What I learned to use from Jobs Lounge (https://jobs-lounge.com/)
+### What I learned to use from [Jobs Lounge](https://jobs-lounge.com/)
 We had to scrape data from multiple job posting websites and organize them into a MySQL database, which later evolved into using PostgreDB + ElasticSearch database. While I had created MVP versions of pages via straight HTML, CSS, and JavaScript, the final front end of the website was done using React and TailwindCSS for styling. The backend was done using both Flask(Python) as well as NextJS(JavaScript). The reason for this was my lack of experience with JavaScript frameworks, so I suggested to Adarsh that I would start creating the product using Flask and then later on, I would rewrite the backend using NextJS as I learned. However, by the time I had grown comfortable enough to start rewriting the backend, the project was already in its final stages and all of the routing and database calls were already done in Flask. However, we were able to take advantage of Flask's built-in Werkzeug library in conjunction with Redis for security and authentication, so it was not a complete waste. This was my first experience ever using Docker and Kubernetes to deploy a website, so I learned a lot about containerization and deployment. All in all, I am very proud of the work I have done and I am excited to see how the website will grow in the future. 
 
 ## What Am I Working On?
 Now that school has started, I am back to fully dedicating my time to school as well as my extracurricular activities, namely my job as Director of Software Education at [StuyPulse Robotics](https://stuypulse.com/). I have been heavily involved in the team's recent projects, which include:
 
-### Newbie ED Curriculum (http://github.com/StuyPulse/newbie-ed)
+### [Newbie ED Curriculum](http://github.com/StuyPulse/newbie-ed)
 I have been working on a brand new curriculum for new members of the team. The curriculum is for Java on the [WPILib's version of Visual Studio Code](https://docs.wpilib.org/) and includes topics such as Git, GitHub, Java, and the WPILib library. The curriculum has currently 13 lessons, and I plan to have around 16-20 lessons by the end of the year. Anyone can access the slides as well as the code for the lessons in the [**newbie-ed**] (http://github.com/StuyPulse/newbie-ed) GitHub repository.
 
-### ShooterLabs (https://github.com/Keobkeig/ShooterLabs)
+### [ShooterLabs](https://github.com/Keobkeig/ShooterLabs)
 I have also been working on a shooter lab for the team. It is a series of challenges meant to get someone who has no experience in Robotics programming familiar with writing FRC code. By completing the lab, you will be creating a Shooter subsystem in both its logic as well as hardware behaviors, while learning how to work with every part of the robot coding process (creating constants, writing commands, configuring RobotContainer, etc.). If you wish to attempt it, fork from the [**ShooterLabs**] (http://github.com/Keobkeig/ShooterLabs) GitHub repository and follow the instructions in the README.md file.
 
-### Physics Drag Force Simulation ((https://www.glowscript.org/#/user/Richie_Xue/folder/MyPrograms/program/Lab1))
+### [Physics Drag Force Simulation](https://www.glowscript.org/#/user/Richie_Xue/folder/MyPrograms/program/Lab1)
 Using Python's VPython library, I have created a simulation of a ball being thrown in the air with drag force. The simulation is based on the equations of motion for a projectile with drag force. The simulation is meant to be used as a tool to help students understand the effects of drag force on a projectile. By adjusting the fields in the simulation, students can see which variables affect the projectile's motion and come out with an ansatz for the drag force equation. The simulation can be found in the [**DragForceSim**] (https://www.glowscript.org/#/user/Richie_Xue/folder/MyPrograms/program/Lab1) folder in my GlowScript account.
 
 ## What Am I Planning to Work On?

@@ -1,0 +1,24 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "src/content/docs/posts/post2.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "src/content/docs/posts/post1.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "src/content/docs/posts/post0.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "src/content/docs/posts/post3.md"
+        }
+    ]
+}

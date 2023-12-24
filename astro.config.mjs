@@ -22,10 +22,10 @@ export default defineConfig({
           label: 'XCave Internship Weekly Logs',
           autogenerate: { directory: 'XCaveLogs'},
         },
-        {
-          label: 'Projects',
-          autogenerate: { directory: 'Projects' },
-        }
+        // {
+        //   label: 'Projects',
+        //   autogenerate: { directory: 'Projects' },
+        // }
       ],
     }),
   ],
